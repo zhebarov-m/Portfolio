@@ -1,0 +1,84 @@
+.profileSection {
+  background-color: #111111;
+  border-radius: 25px;
+  width: 400px;
+  height: 700px;
+  padding: 0 24px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.profileBlock {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  position: relative;
+  top: -20%;
+}
+
+.profilePhoto {
+  background-image: url("../../assets/images/profile-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.myName {
+  font-size: 26px;
+  margin: 24px 0 12px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #fff;
+}
+
+.profession {
+  font-size: 16px;
+  padding: 8px 15px;
+  color: #a6a6a6;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  background-color: #1d1d1d;
+  border-radius: 8px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+
+  margin-top: 12px;
+}
+
+.profileContacts {
+  background-color: #1d1d1d;
+  margin: 28px 0px 0px;
+  padding: 28px;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.phoneBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .phoneNumb {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    text-align: left;
+
+    .title {
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      color: #a6a6a6;
+    }
+
+    .number {
+      font-family: "Poppins", sans-serif;
+      font-size: 16px;
+      color: #fff;
+    }
+  }
+}
