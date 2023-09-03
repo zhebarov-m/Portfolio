@@ -3,6 +3,7 @@ import { FC, useState } from "react";
 import YouTube from "react-youtube";
 import styles1 from "./index.module.scss";
 import ModalHint from "../../components/Modal/ModalHint";
+import mixBlendModeImg from '..//../assets/images/mix-blend-mode__Images.jpeg'
 
 const CssPage: FC = () => {
   const [modalOpen, setModalOpen] = useState(false);
@@ -119,17 +120,17 @@ const CssPage: FC = () => {
             <div className={styles1.mixWrapper}>
               <div className={`${styles1.mixItem} ${styles1.normal}`}>
                 <h3>normal</h3>
-                <img src="https://html5book.ru/wp-content/uploads/2022/01/mix-image.jpg" />
+                <img src={mixBlendModeImg}/>
                 <div className={styles1.mixColor}></div>
               </div>
               <div className={`${styles1.mixItem} ${styles1.multiply}`}>
                 <h3>multiply</h3>
-                <img src="https://html5book.ru/wp-content/uploads/2022/01/mix-image.jpg" />
+                <img src={mixBlendModeImg} />
                 <div className={styles1.mixColor}></div>
               </div>
               <div className={`${styles1.mixItem} ${styles1.screen}`}>
                 <h3>screen</h3>
-                <img src="https://html5book.ru/wp-content/uploads/2022/01/mix-image.jpg" />
+                <img src={mixBlendModeImg} />
                 <div className={styles1.mixColor}></div>
               </div>
             </div>
