@@ -123,7 +123,7 @@ const Home: FC = () => {
             </p>
           </div>
         </section>
-        section.
+
         <section className={styles.stackTech}>
           <h2 className={styles.skillsTitle}>Мой стэк технологий</h2>
 

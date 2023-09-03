@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import { Divider } from "@mui/material";
-import { FcNext } from "react-icons/fc";
 
 const style = {
   position: "absolute",
@@ -40,7 +39,12 @@ const ModalHint: React.FC<ModalHintProps> = ({ onClose }) => {
     >
       <Box sx={style}>
         <Typography
-          sx={{ fontFamily: "Museo", fontSize: "25px", fontWeight: 700 }}
+          sx={{
+            fontFamily: "Museo",
+            fontSize: "30px",
+            fontWeight: 700,
+            color: "#fa2a55",
+          }}
           id="modal-modal-title"
           variant="h6"
           component="h1"
@@ -67,7 +71,16 @@ const ModalHint: React.FC<ModalHintProps> = ({ onClose }) => {
           <span style={{ marginLeft: "20px" }}>
             2) В принципе понять как всё это создается. И хоть, со временем, и
             забросил идею стать разработчиком игр
-            <span onClick={handleSpoiler} style={{backgroundColor: '#333', padding: '3px', borderRadius: '7px', cursor: 'pointer', margin: '0px 3px'}}>
+            <span
+              onClick={handleSpoiler}
+              style={{
+                backgroundColor: "#333",
+                padding: "3px",
+                borderRadius: "7px",
+                cursor: "pointer",
+                margin: "0px 3px",
+              }}
+            >
               {spoilerOpen
                 ? "(это оказалось сложнее, чем я думал)"
                 : "СПОЙЛЕР!"}

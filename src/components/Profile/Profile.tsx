@@ -15,11 +15,11 @@ import { Divider } from "@mui/material";
 const socials = [
   {
     icon: <YouTubeIcon />,
-    url: "https://reactrouter.com/en/main/router-components/browser-router",
+    url: "https://www.youtube.com/channel/UCxTe-frN6V-x9QEFUnLMerg",
   },
   {
     icon: <TelegramIcon />,
-    url: "https://reactrouter.com/en/main/router-components/browser-router",
+    url: "https://t.me/Je_M1",
   },
   {
     icon: <GitHubIcon />,
@@ -27,7 +27,7 @@ const socials = [
   },
   {
     icon: <WhatsAppIcon />,
-    url: "https://reactrouter.com/en/main/router-components/browser-router",
+    url: "https://vk.com/id434638625",
   },
 ];
 
@@ -84,7 +84,7 @@ const Profile: FC = () => {
                 backgroundColor: "#000",
                 padding: "10px",
                 fontSize: "40px",
-                color: "cyan",
+                color: "#87CEEB",
                 borderRadius: "10px",
               }}
             />
@@ -102,7 +102,7 @@ const Profile: FC = () => {
                 backgroundColor: "#000",
                 padding: "10px",
                 fontSize: "40px",
-                color: "darkred",
+                color: "#FF6B6B",
                 borderRadius: "10px",
               }}
             />
@@ -120,7 +120,7 @@ const Profile: FC = () => {
                 backgroundColor: "#000",
                 padding: "10px",
                 fontSize: "40px",
-                color: "purple",
+                color: "#E0B0FF",
                 borderRadius: "10px",
               }}
             />

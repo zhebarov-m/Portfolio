@@ -55,5 +55,6 @@ body {
   min-height: 100vh;
   background-image: url('./assets/images/bgsite.jpg');
   background-position: center;
+  background-attachment: fixed;
 }
 

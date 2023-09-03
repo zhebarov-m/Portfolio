@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+.CssPage {
+  background-color: #111111;
+  border-radius: 15px;
+  width: 840px;
+}
+
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  width: 840px;
+  padding: 48px 56px;
+  text-align: left;
+  .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+      position: relative;
+
+      font-size: 40px;
+      color: #fff;
+      font-family: "Museo";
+      font-weight: 900;
+
+      &::after {
+        content: " ";
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        top: -12px;
+        width: 200px;
+        height: 2px;
+        border-radius: 30px;
+        background-color: #fa2a55;
+      }
+    }
+
+    p {
+      color: #555;
+      text-align: right;
+      line-height: 20px;
+
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  .discription {
+    padding: 30px 0px 0px;
+    font-size: 16px;
+    color: #a6a6a6;
+    font-family: "Museo", cursive;
+    line-height: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.videoContainer {
+  text-align: center;  
+}
+//================================================================
+
+.mixBlendMode {
+
+  font-family: "Museo", sans-serif;
+  color: #fff;
+
+  h3 {
+    margin: 0 0 10px 0;
+  }
+
+  h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-family: "Museo";
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+}
+
+.mixItem {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mixItem img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  left: -15%;
+  border-radius: 50%;
+  transition: 0.3s linear;
+}
+
+.mixItem:hover img {
+  left: 0;
+}
+
+.mixColor {
+  width: 50%;
+  background: #6aff7f;
+  padding-bottom: 50%;
+  border-radius: 50%;
+  margin: -50% auto 0;
+  right: -15%;
+  position: relative;
+  transition: 0.3s linear;
+}
+
+.mixItem:hover .mixColor {
+  right: 0;
+}
+
+.normal .mixColor {
+  mix-blend-mode: normal;
+}
+
+.multiply .mixColor {
+  mix-blend-mode: multiply;
+}
+
+.screen .mixColor {
+  mix-blend-mode: screen;
+}
+
+@media (min-width: 480px) {
+  .mixWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mixItem {
+    width: 40%;
+  }
+}
+
+@media (minwidth: 640px) {
+  .mixItem {
+    width: 33.333333333%;
+  }
+}

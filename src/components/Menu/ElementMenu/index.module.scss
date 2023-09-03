@@ -1,30 +1,31 @@
 .menuItem {
-    background-color: #212425;
-    // background-color: #fa5252;
+  background-color: #212425;
+  text-align: center;
+  // background-color: #fa5252;
 
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 10px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  color: #fff;
 
-    &:hover {
-        background-color: rgb(246, 90, 90);
-    }
+  &:hover {
+    background-color: #f72d5c99;
+    transition: all 0.3s;
+  }
 
-    div {
-        font-size: 20px;
-    }
+  div {
+    font-size: 20px;
+  }
 
-    p {
-        font-size: 13px;
-        font-family: "Museo";
-
-    }
+  p {
+    font-size: 13px;
+    font-family: "Museo";
+  }
 }
