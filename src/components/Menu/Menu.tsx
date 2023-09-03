@@ -2,6 +2,10 @@ import { FC } from "react";
 import ElementMenu from "./ElementMenu/ElementMenu";
 import styles from "./index.module.scss";
 import { GoHome } from "react-icons/go";
+import { SiCss3 } from "react-icons/si";
+import { AiFillHome } from "react-icons/ai";
+import { IoLogoJavascript } from "react-icons/io";
+import { TbBrandReact } from "react-icons/tb";
 
 const Menu: FC = () => {
   return (
@@ -9,33 +13,33 @@ const Menu: FC = () => {
       <ul className={styles.menuList}>
         <ElementMenu>
           <div id="icon">
-            <GoHome />
+            <AiFillHome />
           </div>
-          <p>Home</p>
+          <p>Главная</p>
         </ElementMenu>
         <ElementMenu>
           <div id="icon">
-            <GoHome />
+            <SiCss3 />
           </div>
-          <p>Home</p>
+          <p>Фишка</p>
         </ElementMenu>
         <ElementMenu>
           <div id="icon">
-            <GoHome />
+            <IoLogoJavascript />
           </div>
-          <p>Home</p>
+          <p>JavaScript</p>
         </ElementMenu>
         <ElementMenu>
           <div id="icon">
-            <GoHome />
+
           </div>
-          <p>Home</p>
+          <p>н/д</p>
         </ElementMenu>
         <ElementMenu>
           <div id="icon">
-            <GoHome />
+            {/* <TbBrandReact /> */}
           </div>
-          <p>Home</p>
+          <p>н/д</p>
         </ElementMenu>
       </ul>
     </nav>

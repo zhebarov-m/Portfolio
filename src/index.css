@@ -16,6 +16,35 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
+@font-face { 
+  font-family: "Museo";
+  src: url("../src/assets/fonts/Museo/MuseoRegular.ttf");
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face { 
+  font-family: "Museo";
+  src: url("../src/assets/fonts/Museo/exljbris\ -\ Museo\ Cyrl\ 500.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face { 
+  font-family: "Museo";
+  src: url("../src/assets/fonts/Museo/exljbris\ -\ Museo\ Cyrl\ 700.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face { 
+  font-family: "Museo";
+  src: url("../src/assets/fonts/Museo/exljbris\ -\ Museo\ Cyrl\ 900.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
