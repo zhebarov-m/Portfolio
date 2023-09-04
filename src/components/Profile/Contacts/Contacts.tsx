@@ -1,7 +1,7 @@
 import { FC, ReactNode } from "react"
 
 interface iChildrenProps {
-    children: ReactNode; // Используйте тип ReactNode для children
+    children: ReactNode;
 }
 
 const Contacts:FC<iChildrenProps> = (props) => {

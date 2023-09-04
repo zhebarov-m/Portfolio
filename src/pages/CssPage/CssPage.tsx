@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-// import styles from "./Home.module.scss";
+
 import YouTube from "react-youtube";
 import styles1 from "./index.module.scss";
 import ModalHint from "../../components/Modal/ModalHint";

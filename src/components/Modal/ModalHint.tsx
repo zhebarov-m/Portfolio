@@ -32,7 +32,7 @@ const ModalHint: React.FC<ModalHintProps> = ({ onClose }) => {
   };
   return (
     <Modal
-      open={true} // Открывается, когда передано true
+      open={true}
       onClose={onClose}
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"

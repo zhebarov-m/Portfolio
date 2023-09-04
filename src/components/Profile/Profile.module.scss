@@ -19,8 +19,6 @@
   flex-direction: column;
 
   margin-top: 30px;
-  // position: relative;
-  // bottom: 40px;
 }
 
 .profilePhoto {
@@ -29,19 +27,19 @@
   background-size: cover;
 
   border-radius: 50% !important;
-  animation: oldZoom 1.2s ease-in-out; /* Анимация для ключевых кадров */
+  animation: oldZoom 1.2s ease-in-out;
   transition: transform 1s ease;
 }
 
 @keyframes oldZoom {
   0% {
-    transform: scale(1); /* Исходный размер */
+    transform: scale(1);
   }
   50% {
-    transform: scale(1.05); /* Увеличение до 1.2x */
+    transform: scale(1.05);
   }
   100% {
-    transform: scale(1); /* Возврат к исходному размеру */
+    transform: scale(1);
   }
 }
 
@@ -51,19 +49,19 @@
   background-size: cover;
 
   border-radius: 50% !important;
-  animation: zoom 1.2s ease-in-out; /* Анимация для ключевых кадров */
+  animation: zoom 1.2s ease-in-out;
   transition: transform 1s ease;
 }
 
 @keyframes zoom {
   0% {
-    transform: scale(1); /* Исходный размер */
+    transform: scale(1);
   }
   50% {
-    transform: scale(1.05); /* Увеличение до 1.2x */
+    transform: scale(1.05);
   }
   100% {
-    transform: scale(1); /* Возврат к исходному размеру */
+    transform: scale(1);
   }
 }
 
@@ -102,8 +100,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // position: relative;
-  // bottom: 60px;
 }
 
 .phoneBlock {

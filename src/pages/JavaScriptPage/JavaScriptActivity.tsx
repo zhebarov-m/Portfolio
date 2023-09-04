@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-// import styles from "./Home.module.scss";
+
 import styles1 from "./index.module.scss";
 import ModalHint from "../../components/Modal/ModalHint";
 import CalculatorPng from '../../assets/images/calculator.png'
